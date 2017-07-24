@@ -1,0 +1,52 @@
+html {
+	-webkit-print-color-adjust: exact;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+table, th, td {
+	font-family: "georgia";
+	text-align: left;
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px 10px;
+}
+
+.header {
+	font-size: 16pt;
+	vertical-align: bottom;
+}
+
+.sectionheader {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #255791;
+}
+
+.item {
+	font-size: 10pt;
+}
+
+.category {
+	font-weight: normal;
+}
+
+.index {
+	text-align: center;
+	width: 5%;
+}
+
+.description {
+	width: 40%;
+}
+
+.title {
+	width: 40%;
+}
+
+.editor {
+}
